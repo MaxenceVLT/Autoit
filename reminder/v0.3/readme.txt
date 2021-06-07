@@ -1,0 +1,1 @@
+With this version all alerts are notified with a sound (C:\Windows\Media\notify.wav).
