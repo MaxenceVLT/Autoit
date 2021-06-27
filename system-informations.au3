@@ -1,3 +1,5 @@
+#include <MsgBoxConstants.au3>
+
 Local $sysInfos = ("- Lecteur système :  "  & @homedrive & @CRLF _
                 & "- Version de l'OS :  " & @OSArch & "  " & @OSVersion & @CRLF _
 				& "- Adresse IP :  " & @IPAddress1 & @CRLF _
