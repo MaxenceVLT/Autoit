@@ -1,6 +1,6 @@
 ## DESCRIPTION
-This script permits to read a log file.
-The refresh function restart every 2,5 seconds.
+This version permits to read a log file.
+</br>The refresh function restart every 2,5 seconds.
 
 ## HOW TO USE THIS PROGRAM
 - Click on "Lire" > Select a File > See the file path above the Box
