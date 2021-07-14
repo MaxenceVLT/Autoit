@@ -28,6 +28,37 @@ GUISetState(@SW_SHOW)
 	GUICtrlSetData($Edit1,$RefreshEdit1)
 	EndFunc
 
+Func DeleteNetworkDrive()
+	DriveMapDel("A:")
+	DriveMapDel("B:")
+	DriveMapDel("C:")
+	DriveMapDel("D:")
+	DriveMapDel("E:")
+	DriveMapDel("D:")
+	DriveMapDel("E:")
+	DriveMapDel("F:")
+	DriveMapDel("G:")
+	DriveMapDel("H:")
+	DriveMapDel("I:")
+	DriveMapDel("J:")
+	DriveMapDel("K:")
+	DriveMapDel("L:")
+	DriveMapDel("M:")
+	DriveMapDel("N:")
+	DriveMapDel("O:")
+	DriveMapDel("P:")
+	DriveMapDel("Q:")
+	DriveMapDel("R:")
+	DriveMapDel("S:")
+	DriveMapDel("T:")
+	DriveMapDel("U:")
+	DriveMapDel("V:")
+	DriveMapDel("W:")
+	DriveMapDel("X:")
+	DriveMapDel("Y:")
+	DriveMapDel("Z:")
+EndFunc
+
 While 1
 	$nMsg = GUIGetMsg()
 	Switch $nMsg
@@ -46,6 +77,7 @@ While 1
 ;↓↓==============[CREATE A MAPPER.EXE]==============↓↓
 		Case $Button2
 			Run('powershell.exe -command "C:\Users\Maxencce\Documents\GitHub\Autoit\mapper\v0.3\aut2exe.exe /in C:\Users\Maxencce\Documents\GitHub\Autoit\mapper\v0.3\mapper.au3 /out C:\Users\Maxencce\Documents\GitHub\Autoit\mapper\v0.3\mapper.exe"')
+			DeleteNetworkDrive()
 ;↓↓==============[SAVE THE EDITION INTO THE BOX ($Edit1)]==============↓↓
 		Case $Button3
 			$OpenMapper2 = FileOpen("C:\Users\Maxencce\Documents\GitHub\Autoit\mapper\v0.3\mapper.au3", 2)
